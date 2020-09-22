@@ -100,15 +100,19 @@ header button:hover{
 
 .what {
     background: orangered;
-    color: #f4f4f4
+    color: #f4f4f4;
+    display: flex;
+    align-items: center;
 }
 
 .what div{
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 img{
-    max-width: 50%;
+height: 45vh;
 }
 
 /* Footer Styling */
@@ -125,3 +129,20 @@ footer a{
     text-decoration: none;
     color: white;
 }
+
+
+/*********** MEDIA QUERIES **********/
+
+
+/* Tablet Design */
+@media (max-width: 800px){
+
+}
+
+
+/* Mobile Design */
+
+@media (max-width: 500px){
+
+}
+
