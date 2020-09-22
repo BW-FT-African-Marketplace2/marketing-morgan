@@ -184,6 +184,17 @@ footer a{
     header nav{
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .help div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .help p{
+        width: 80%;
     }
 
     footer{
@@ -195,6 +206,20 @@ footer a{
 
 @media (max-width: 500px){
     body{
-        background: green;
+        font-size: 1.5rem;
     }
+
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    header nav{
+        text-align: center;
+    }
+
+    h1{
+        padding-left: 5%;
+    }
+    
 }
