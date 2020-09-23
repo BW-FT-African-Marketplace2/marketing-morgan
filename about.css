@@ -198,6 +198,11 @@ footer a{
         width: 80%;
     }
 
+    .tt-descrip{
+        text-align: center;
+        padding: 3%;
+    }
+
     footer{
         padding: 4% 0;
     }
@@ -223,4 +228,7 @@ footer a{
         padding-left: 5%;
     }
     
+    .tt-descrip{
+        font-size: 1.3rem;
+    }
 }

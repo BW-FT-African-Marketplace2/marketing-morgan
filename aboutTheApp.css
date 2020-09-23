@@ -178,5 +178,9 @@ footer a{
     header h1{
         padding-left: 2%;
     }
+
+    .who{
+        font-size: 1.7rem;
+    }
 }
 
